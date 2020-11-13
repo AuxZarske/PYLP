@@ -1,0 +1,1 @@
+es_rechazado(Antiguedad) :- (Antiguedad < 3.5).
