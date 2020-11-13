@@ -1,0 +1,5 @@
+padre(clara,pedro).
+padre(pedro,jose).
+padre(ana,clara).
+padre(jose,clara).
+

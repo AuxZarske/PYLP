@@ -1,0 +1,7 @@
+padre(clara,pedro).
+padre(pedro,jose).
+padre(ana,clara).
+padre(jose,clara).
+
+-- Si queremos que nos devuelva si o no
+abuelo(X,Y) :- padre(X,Z) , padre(Z,Y).
